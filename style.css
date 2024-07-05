@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    padding:0;
+}
+.home{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.895);
+    color: white;
+}
+.nav{
+    display: block;
+    width: 100%;
+	flex-wrap: wrap;
+    text-align: right;
+	align-content: space-around;
+    margin: 0;
+    padding: 10px;
+    
+}
+.nav ul{
+    margin-left: 25%;
+}
+
+.heading-name{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:100px 20px;
+    text-align: center;
+    color:whitesmoke;
+    letter-spacing: 1px;
+}
+.about-cont{
+    padding-left: 150px;
+    padding-top: 80px;
+}
+
+.about-btn{
+    padding-top: 50px;
+}
+.about-btns{
+    padding: 10px 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bt1{
+    background-color: gainsboro;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}
+.bt2{
+    background-color: rgb(214, 13, 13);
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.fa-youtube-play{
+    color: whitesmoke;
+}
+.bt3{
+    background-color: rgb(221, 80, 24);
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.fa-amazon{
+    color:whitesmoke;
+}
+.quote{
+    margin-top: 60px;
+    background-color: rgb(26, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    letter-spacing: 1px;
+    width:100%;
+    height: 100px;
+    padding-top: 35px;
+}
+
+.awards{
+
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+	align-content: space-between;
+}
+
+sub{
+    font-size:10%;
+    opacity: 0.40;
+}
+.award-box{
+    display: inline-block;
+    border:1px solid rgb(159, 62, 159);
+    border-radius: 5px;
+    padding:10px;
+}
+
+
+.poetry-list1{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 60px;
+    width:420px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.poetry-list2{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 10px;
+    width:420px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    background-color: rgb(26, 23, 23);
+    color: whitesmoke;
+    padding-left: 100px;
+}
+
+.footer-contn{
+    padding-top: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hilight{
+    color:gray;
+}
+.hiblue{
+    color: rgb(83, 83, 182);
+}
+
+.highlight-line{ 
+    border-left: 0.2px solid thistle;
+    height: 100px;
+    margin-left: -3px;
+    opacity: 0.3;
+    top: 30px;
+    
+}
